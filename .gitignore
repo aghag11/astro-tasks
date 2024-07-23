@@ -1,0 +1,10 @@
+node_modules/
+
+logs/
+*.log
+
+.env
+
+astro-tasks-backend-venv/
+
+.DS_Store
