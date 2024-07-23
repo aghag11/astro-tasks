@@ -1,0 +1,115 @@
+/* General styles */
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #183059;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ }
+ header {
+  font-size: 36px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  color: #F9EBE0;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .app {
+  text-align: center;
+  background-color: #0D2149;
+  padding: 20px;
+  border-radius: 10px;
+ }
+ input[type="text"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+ }
+ button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Orbitron', sans-serif;
+ }
+ button:hover {
+  opacity: 0.8;
+ }
+ .new-task {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+ .new-task input {
+  flex: 1;
+ }
+ .new-task button {
+  background-color: #8B575C;
+  color: #FFFFFF;
+ }
+ .task-list {
+  list-style: none;
+  padding: 0;
+ }
+ .task-list li {
+  background-color: #208AAE;
+  color: #F9EBE0;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .task-list li.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+ }
+ .task-list button {
+  background-color: #8B575C;
+  color: #FFFFFF;
+ }
+ /* Additional styles */
+ .tasks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0A1128;
+  padding: 20px;
+  border-radius: 10px;
+  color: #FFFFFF;
+ }
+ .task-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+ }
+ .task-input input {
+  padding: 10px;
+  border: 2px solid #D4AF37;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+ }
+ .task-input button {
+  background-color: #D4AF37;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+ }
+ .task-list li button {
+  background-color: #D4AF37;
+  color: #FFFFFF;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+ } 
